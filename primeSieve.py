@@ -15,19 +15,6 @@ support NumPy as of yet.
 A segmented sieve of Eratosthenes with a wheel mod 2. The wheel mod 6 version of this is 
 annoying as hell to implement and might be included in the future. 
 
-
-BENCHMARKS:
-Tests performed on a Macbook Pro (mid-2012) w/ a 2.6 GHz Intel Core i7 3720QM
-processor and 8 GB RAM.
-
-    BENCHMARKS |    10^6    |   10^7    |    10^8    |    10^9
-    -------------------------------------------------------------
-   Eratosthenes|    0.02s   |   0.32s   |    3.81s   |   93.99s
-          Atkin|    0.06s   |   0.13s   |    0.72s   |    5.4s
-
-REFRENCES:
-[1] A.O.L Atkin, D.J.Bernstein; Prime Sieves using Binary Quadratic Forms; Mathematics  
-    of Computation, 73-246: 1023-30
 """
 
 import math
