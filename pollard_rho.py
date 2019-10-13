@@ -7,7 +7,6 @@ import constants
 This module contains an implementation of Brent's improvement to Pollard's Rho
 alogrithm. 
 
-TODO: Include explanation of algorithm. 
 """
 
 small_primes = primeSieve.prime_sieve(constants.PRIME_THRESHOLD_RHO)
