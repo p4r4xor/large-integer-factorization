@@ -37,7 +37,7 @@ def compute_bounds(n):
 	elif log_n <= 80:
 		B1, B2 = 3000000, 5706890290
 	else: 
-		# Anything greater and my computer runs out of memory -- prolly need to fix this
+		
 		B1, B2 = constants.MAX_B1_ECM, constants.MAX_B2_ECM
 	return B1, B2
 
